@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #0B2434;
+  padding: 1rem 0.5rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  max-width: 600px;
+  max-height: 600px;
+}
+
+main {
+  border-radius: 10px;
+  background-color: #F5F5F5;
+  height: 100%;
+  
+}
